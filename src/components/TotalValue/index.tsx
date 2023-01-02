@@ -11,7 +11,7 @@ const TotalValue = ({ bankInfoList }: iTotalvalueProps) => {
     <StyledTotalValue>
       <h3>Total value:</h3>{" "}
       <p>
-        R${" "}
+        ${" "}
         {bankInfoList.reduce(
           (previousValue, currentValue) =>
             currentValue.valueType === "Gain"

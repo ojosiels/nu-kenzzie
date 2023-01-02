@@ -15,7 +15,7 @@ const BankCard = ({ bankCard, removeBankItem }: iBankCardProps) => {
         <p className="valueType">{bankCard.valueType}</p>
       </div>
       <div>
-        <p>R$ {bankCard.value}</p>
+        <p>$ {bankCard.value}</p>
 
         <button onClick={() => removeBankItem(bankCard)}>
           <MdRemoveCircle />
